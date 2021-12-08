@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tinh_chi_so_can_nang_cua_co_the {
+public class TinhChiSoCanNangCuaCoThe {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap chieu cao cua ban (m): ");

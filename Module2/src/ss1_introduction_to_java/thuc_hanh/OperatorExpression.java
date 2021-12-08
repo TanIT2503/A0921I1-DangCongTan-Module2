@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class operator_expression {
+public class OperatorExpression {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap chieu rong: ");

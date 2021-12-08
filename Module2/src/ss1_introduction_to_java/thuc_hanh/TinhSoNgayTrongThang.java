@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class tinh_so_ngay_trong_thang {
+public class TinhSoNgayTrongThang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap thang: ");

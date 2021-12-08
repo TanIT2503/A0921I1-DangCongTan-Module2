@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class giai_phuong_trinh_bac_nhat {
+public class GiaiPhuongTrinhBacNhat {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap vao a: ");

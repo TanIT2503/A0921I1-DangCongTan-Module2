@@ -1,5 +1,4 @@
-//khai báo vaf sử dụng biến.
-public class variable_datatype {
+public class VariableDatatype {
     public static void main(String[] args) {
         int i  = 10;
         float f = 20.5f;
