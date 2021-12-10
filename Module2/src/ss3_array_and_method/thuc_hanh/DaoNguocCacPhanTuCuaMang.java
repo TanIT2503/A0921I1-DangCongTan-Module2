@@ -7,19 +7,19 @@ public class DaoNguocCacPhanTuCuaMang {
         int[] array;
         Scanner scanner = new Scanner(System.in);
         do {
-            System.out.print("Enter a size:");
+            System.out.print("Nhap kich thuoc mang:");
             size = scanner.nextInt();
             if (size > 20)
-                System.out.println("Size does not exceed 20");
+                System.out.println("Khong duoc qua 20");
         } while (size > 20);
         array = new int[size];
         int i = 0;
         while (i < array.length) {
-            System.out.print("Enter element " + (i + 1) + ": ");
+            System.out.print("Nhap phan tu " + (i + 1) + ": ");
             array[i] = scanner.nextInt();
             i++;
         }
-        System.out.printf("%-20s%s", "Elements in array: ", "");
+        System.out.printf("%-20s%s", "Phan tu trong mang: ", "");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + "\t");
         }
@@ -28,7 +28,7 @@ public class DaoNguocCacPhanTuCuaMang {
             array[j] = array[size - 1 - j];
             array[size - 1 - j] = temp;
         }
-        System.out.printf("\n%-20s%s", "Reverse array: ", "");
+        System.out.printf("\n%-20s%s", "Mang dao nguoc: ", "");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + "\t");
         }
