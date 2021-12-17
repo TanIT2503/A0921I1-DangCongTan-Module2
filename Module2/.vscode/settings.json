@@ -1,6 +1,7 @@
 {
   "java.project.sourcePaths": [
     "ss6_access_modifier/thuc_hanh",
+    "ss6_access_modifier/bai_tap",
     "src/ss4_class_and_object/bai_tap",
     "src/ss3_array_and_method/thuc_hanh",
     "src/ss3_array_and_method/bai_tap",
@@ -8,6 +9,6 @@
     "src/ss2_loop/bai_tap",
     "src/ss1_introduction_to_java/thuc_hanh",
     "src/ss1_introduction_to_java/bai_tap",
-    "ss6_access_modifier/bai_tap"
+    "src/ss7_inheritance_in_java/thuc_hanh"
   ]
 }
