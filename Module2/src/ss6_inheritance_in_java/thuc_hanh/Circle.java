@@ -1,4 +1,4 @@
-package ss7_inheritance_in_java.thuc_hanh;
+package ss6_inheritance_in_java.thuc_hanh;
 
 public class Circle extends Shape {
     private double radius = 1.0;

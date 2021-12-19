@@ -1,4 +1,4 @@
-package ss7_inheritance_in_java.thuc_hanh;
+package ss6_inheritance_in_java.thuc_hanh;
 
 public class Rectangle extends Shape {
     private double width = 1.0;
