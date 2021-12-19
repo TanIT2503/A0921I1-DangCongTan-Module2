@@ -1,3 +1,5 @@
+package ss7_inheritance_in_java.thuc_hanh;
+
 public class Shape {
     private String color = "green";
     private boolean filled = true;

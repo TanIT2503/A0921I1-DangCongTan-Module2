@@ -1,3 +1,5 @@
+package ss7_inheritance_in_java.thuc_hanh;
+
 public class CircleTest {
     public static void main(String[] args) {
         Circle circle = new Circle();
