@@ -1,9 +1,5 @@
-package ss8_clean_code_and_refactoring.thuc_hanh;
+/*package ss8_clean_code_and_refactoring.thuc_hanh;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 public class CylinderTest {
     @Test
@@ -27,4 +23,4 @@ public class CylinderTest {
         double result = Cylinder.getVolume(radius, height);
         assertEquals(expected, result);
     }
-}
+}*/

@@ -1,8 +1,4 @@
-package ss8_clean_code_and_refactoring.thuc_hanh;
-
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+/*package ss8_clean_code_and_refactoring.thuc_hanh;
 
 public class FizzBuzzTest {
     @Test
@@ -58,4 +54,4 @@ public class FizzBuzzTest {
         String result = FizzBuzz.fizzBuzz(number);
         assertEquals(expected, result);
     }
-}
+}*/
