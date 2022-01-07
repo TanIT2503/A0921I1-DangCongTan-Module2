@@ -1,12 +1,3 @@
-// .	Xây dựng menu chương trình với method displayMainMenu() để cho phép người dùng lựa chọn các chức năng trên menu. Gồm có:
-// 1.	Employee Management
-// 2.	Customer Management
-// 3.	Facility Management 
-// 4.	Booking Management
-// 5.	Promotion Management
-// 6.	Exit
-
-
 package controllers;
 
 import java.util.Scanner;
@@ -38,15 +29,15 @@ public class FuramaController {
                 break;
             case 3:
                 System.out.println("Facility Management");
-                //FacilityController.displayMainMenu();
+                FacilityController.facilityManagement();
                 break;
             case 4:
                 System.out.println("Booking Management");
-                //BookingController.displayMainMenu();
+                BookingController.bookingManagement();
                 break;
             case 5:
                 System.out.println("Promotion Management");
-                //PromotionController.displayMainMenu();
+                PromotionController.promotionManagement();
                 break;
             case 6:
                 System.exit(0);
