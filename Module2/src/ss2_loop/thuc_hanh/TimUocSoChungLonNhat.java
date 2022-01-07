@@ -1,4 +1,4 @@
-/*
+package ss2_loop.thuc_hanh;/*
 Ứng dụng cho phép nhập vào hai số nguyên và hiển thị ước số chung lớn nhất của hai số đó.
 */
 import java.util.Scanner;

@@ -1,3 +1,5 @@
+package ss1_introduction_to_java.thuc_hanh;
+
 public class VariableDatatype {
     public static void main(String[] args) {
         int i  = 10;

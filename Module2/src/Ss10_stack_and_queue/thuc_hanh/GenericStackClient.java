@@ -1,4 +1,4 @@
-package Ss10_stack_and_queue.thuc_hanh;
+package ss10_stack_and_queue.thuc_hanh;
 
 public class GenericStackClient {
    private static void stackOfStrings(){

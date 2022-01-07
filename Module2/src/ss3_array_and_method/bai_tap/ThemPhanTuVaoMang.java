@@ -1,3 +1,5 @@
+package ss3_array_and_method.bai_tap;
+
 // một chương trình cho phép người dùng khai báo mảng mảng số nguyên gồm N phần tử. Nhập một giá trị bất kỳ từ bàn phím và vị trí cần chèn, giá trị này được chèn vào vị trí đó trong mảng.
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package ss10_stack_and_queue.bai_tap;
+
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;

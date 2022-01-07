@@ -1,3 +1,5 @@
+package ss5_access_modifier.bai_tap;
+
 public class TestCircle {
     // tạo đối tượng Circle và truy cập đến các phương thức getRadius() và getArea().
     public static void main(String[] args) {

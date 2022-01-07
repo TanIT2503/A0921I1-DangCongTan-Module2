@@ -1,3 +1,5 @@
+package ss4_class_and_object.bai_tap;
+
 public class FanClass {
     public static final int SLOW = 1;
     public static final int MEDIUM = 2;

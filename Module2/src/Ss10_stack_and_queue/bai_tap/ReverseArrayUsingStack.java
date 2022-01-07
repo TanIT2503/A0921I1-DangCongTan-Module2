@@ -1,3 +1,5 @@
+package ss10_stack_and_queue.bai_tap;
+
 import java.util.Stack;
 
 // Đảo ngược phần tử trong mảng số nguyên sử dụng Stack

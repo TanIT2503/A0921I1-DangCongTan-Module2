@@ -1,3 +1,5 @@
+package ss5_access_modifier.thuc_hanh;
+
 public class TestStaticMethod {
     public static void main(String[] args) {
          StudentTH.change(); //calling change method

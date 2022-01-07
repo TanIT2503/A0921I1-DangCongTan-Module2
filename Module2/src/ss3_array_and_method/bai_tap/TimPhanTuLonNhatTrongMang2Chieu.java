@@ -1,3 +1,5 @@
+package ss3_array_and_method.bai_tap;
+
 // Viết một ứng dụng cho phép người dùng nhập vào một ma trận số thực, sau đó tìm ra tọa độ cũng như giá trị của phần tử lớn nhất.
 
 import java.util.Scanner;

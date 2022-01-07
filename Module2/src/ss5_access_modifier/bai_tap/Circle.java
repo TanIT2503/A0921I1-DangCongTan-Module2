@@ -1,3 +1,5 @@
+package ss5_access_modifier.bai_tap;
+
 public class Circle {
     // Hai thuộc tính có access modifier là private: radius (double) có giá trị khởi tạo là 1.0, color (String) có giá trị khởi tạo là "red".
     private double radius = 1.0;

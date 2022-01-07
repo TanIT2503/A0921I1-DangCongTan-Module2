@@ -1,4 +1,4 @@
-package Ss10_stack_and_queue.bai_tap;
+package ss10_stack_and_queue.bai_tap;
 
 import java.util.Scanner;
 import java.util.Stack;

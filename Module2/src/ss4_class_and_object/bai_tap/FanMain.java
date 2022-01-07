@@ -1,3 +1,5 @@
+package ss4_class_and_object.bai_tap;
+
 public class FanMain {
     public static void main(String[] args) {
         final int SLOW = 1;

@@ -1,3 +1,5 @@
+package ss3_array_and_method.bai_tap;
+
 import java.util.Scanner;
 
 public class GopMang {

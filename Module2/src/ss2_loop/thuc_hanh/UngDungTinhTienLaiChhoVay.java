@@ -1,3 +1,5 @@
+package ss2_loop.thuc_hanh;
+
 import java.util.Scanner;
 
 public class UngDungTinhTienLaiChhoVay {

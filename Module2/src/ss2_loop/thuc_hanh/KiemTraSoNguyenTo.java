@@ -1,4 +1,4 @@
-// kiểm tra một số xem có phải là số nguyên tố hay không.
+package ss2_loop.thuc_hanh;// kiểm tra một số xem có phải là số nguyên tố hay không.
 // Số nguyên tố là một số nguyên dương chỉ chia hết cho 1 và chính nó.
 // Ứng dụng cho phép người dùng nhập vào một số và hiển thị kết quả là số đó là số nguyên tố hoặc không phải là số nguyên tố.
 import java.util.Scanner;

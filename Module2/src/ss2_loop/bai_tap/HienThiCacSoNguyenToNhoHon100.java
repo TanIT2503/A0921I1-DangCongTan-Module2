@@ -1,3 +1,5 @@
+package ss2_loop.bai_tap;
+
 public class HienThiCacSoNguyenToNhoHon100 {
     public static void main(String[] args) {
         System.out.printf("Cac so nguyen to nho hon 100 la: ");

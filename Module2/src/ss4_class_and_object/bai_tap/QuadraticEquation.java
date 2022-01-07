@@ -1,3 +1,5 @@
+package ss4_class_and_object.bai_tap;
+
 // Thiết kế một lớp tên là QuadraticEquation cho một phương trình bậc hai (quadratic equation) ax2 + bx + x = 0. Lớp này gồm các thành phần:
 
 // Trường dữ liệu a, b, và c thuộc kiểu private double đại diện cho 3 hệ số. 

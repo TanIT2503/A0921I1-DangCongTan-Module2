@@ -1,3 +1,5 @@
+package ss1_introduction_to_java.thuc_hanh;
+
 // Viết một chương trình tính số ngày trong tháng của một tháng cho trước. Trong một năm, tháng 2 có thể có 28 hoặc 29 ngày, các tháng 1, 3, 5, 7, 8, 10, 12 có 31 ngày, các tháng còn lại có 30 ngày.
 
 import java.util.Scanner;
