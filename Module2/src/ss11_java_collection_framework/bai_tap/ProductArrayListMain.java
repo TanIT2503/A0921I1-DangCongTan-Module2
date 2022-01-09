@@ -13,7 +13,7 @@ public class ProductArrayListMain {
             System.out.println("3. Delete product by id");
             System.out.println("4. Show product");
             System.out.println("5. Search product by name");
-            System.out.println("6. Find product by name");
+            System.out.println("6. Sort product by price");
             System.out.println("7. Exit");
             System.out.println("Enter your choice: ");
             choose = scanner.nextInt();

@@ -19,8 +19,6 @@ public class ProductManager {
     Scanner scanner = new Scanner(System.in);
     public void addProduct(Product product) {
         Scanner scanner = new Scanner(System.in);
-        boolean check = true;
-        while (check) {
             System.out.println("Nhập thông tin sản phẩm: ");
             System.out.print("Nhập id: ");
             product.setId(scanner.nextInt());
@@ -31,10 +29,6 @@ public class ProductManager {
             listProduct.add(product);
             System.out.println("Bạn có muốn nhập thêm sản phẩm không? (y/n)");
             String choice = scanner.next();
-            if (choice.equalsIgnoreCase("n")) {
-                check = false;
-            }
-        }
     }
 
     public void showProduct() {
