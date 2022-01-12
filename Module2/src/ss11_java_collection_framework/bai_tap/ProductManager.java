@@ -17,18 +17,43 @@ import java.util.Scanner;
 public class ProductManager {
     ArrayList<Product> listProduct = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
-    public void addProduct(Product product) {
-        Scanner scanner = new Scanner(System.in);
+
+    public void addProduct() {
+
+        // while (true) {
+        //     System.out.println("Nhập ID: ");
+        //     product.setId(scanner.nextInt());
+        //     System.out.println("Nhập tên sản phẩm: ");
+        //     product.setName(scanner.next());
+        //     System.out.println("Nhập giá sản phẩm: ");
+        //     product.setPrice(scanner.nextDouble());
+        //     listProduct.add(product);
+        //     System.out.println("Bạn có muốn tiếp tục nhập sản phẩm không? (y/n)");
+        //     String choose = scanner.next();
+        //     if (choose.equalsIgnoreCase("n")) {
+        //         break;
+        //     }
+        // }
+        while (true) {
+            Product product = new Product();
+            Scanner scanner = new Scanner(System.in);
             System.out.println("Nhập thông tin sản phẩm: ");
             System.out.print("Nhập id: ");
             product.setId(scanner.nextInt());
+            // product.setId(Integer.parseInt(scanner.nextLine()));
             System.out.print("Nhập tên: ");
             product.setName(scanner.next());
             System.out.print("Nhập giá: ");
             product.setPrice(scanner.nextDouble());
+            // product.setPrice(Double.parseDouble(scanner.nextLine()));
             listProduct.add(product);
-            System.out.println("Bạn có muốn nhập thêm sản phẩm không? (y/n)");
+            System.out.println("Bạn có muốn tiếp tục nhập sản phẩm không? (y/n)");
             String choice = scanner.next();
+            if (choice.equalsIgnoreCase("n")) {
+                break;
+            }
+        }
+
     }
 
     public void showProduct() {
@@ -43,6 +68,7 @@ public class ProductManager {
         System.out.print("\nNhập tên sản phẩm muốn sửa: ");
         String productName = scanner.nextLine();
         System.out.print("\nNhập giá sản phẩm muốn sửa: ");
+        // double price = Double.parseDouble(scanner.nextLine());
         double price = scanner.nextDouble();
         Product prod = new Product(id, productName, price);
         prod.setId(id);
@@ -113,7 +139,7 @@ public class ProductManager {
             System.out.println("\n1. Sắp xếp tăng dần theo giá");
             System.out.println("2. Sắp xếp giảm dần theo giá");
             System.out.print("\nChọn: ");
-            choice = scanner.nextInt();
+            choice = Integer.parseInt(scanner.nextLine());
         switch (choice) {
             case 1:
                 System.out.println("Sắp xếp tăng dần theo giá");

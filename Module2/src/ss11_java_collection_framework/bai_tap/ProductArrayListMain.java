@@ -19,7 +19,7 @@ public class ProductArrayListMain {
             choose = scanner.nextInt();
             switch (choose) {
                 case 1:
-                    productManager.addProduct(new Product());
+                    productManager.addProduct();
                     break;
                 case 2:
                     System.out.print("Nhập Id sản phẩm muốn sửa: ");
