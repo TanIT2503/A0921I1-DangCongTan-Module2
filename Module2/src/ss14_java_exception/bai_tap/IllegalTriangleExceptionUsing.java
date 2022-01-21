@@ -5,7 +5,7 @@ public class IllegalTriangleExceptionUsing {
     public static void main(String[] args) {
         Triangle triangle = null;
         try {
-            triangle = new Triangle(1, 0, 3);
+            triangle = new Triangle(1, 2, 3);
         } catch (IllegalTriangleException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
