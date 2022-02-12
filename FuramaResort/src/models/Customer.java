@@ -4,9 +4,8 @@ public class Customer extends Person{
     private String customerType;
     private String address;
 
-    public Customer(String customerType, String address) {
-        this.customerType = customerType;
-        this.address = address;
+    public Customer() {
+        
     }
     
     public Customer(int id, String name, String birthday, String sex, String cccd, String numberPhone, String email,
@@ -44,5 +43,7 @@ public class Customer extends Person{
                 + "\nCustomer Type: " + getCustomerType()
                 + "\nCustomer Address: " + getAddress();
     }
-    
+    public String getInfoToCVS() {
+        return getInfoPersonToCVS() + "," + this.customerType + "," + this.address;
+    }
 }

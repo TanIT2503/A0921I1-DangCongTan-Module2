@@ -8,6 +8,7 @@ public class Person {
     private String cccd;
     private String numberPhone;
     private String email;
+    
     public Person() {
     }
     
@@ -79,7 +80,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Id: " + getId() 
+        return "Id: " + getId()
                 + "Name: " + getName()
                 + "Birthday: " + getBirthday()
                 + "Sex: " + getSex()
@@ -87,5 +88,9 @@ public class Person {
                 + "Number Phone: " + getNumberPhone()
                 + "Email: " + getEmail();
     }
-    
+
+    public String getInfoPersonToCVS() {
+        return this.id + "," + this.name + "," + this.birthday + "," + this.sex + "," + this.cccd + ","
+                + this.numberPhone + "," + this.email;
+    }
 }
