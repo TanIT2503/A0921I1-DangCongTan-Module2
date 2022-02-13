@@ -37,7 +37,7 @@ public class CustomerServiceImpl implements ICustomerService {
         List <Customer> customerList = new ArrayList<>();
         customerList.add(customer);
         //Lưu file CSV with
-        ReadAndWriteToCSV.writeCustomerListToCSV1(CUSTOMER_PATH_FILE,customerList,true);
+        ReadAndWriteToCSV.writeCustomerListToCSV(CUSTOMER_PATH_FILE,customerList,true);
     }
 
     @Override

@@ -52,9 +52,13 @@ public class Villa extends Facility {
 
     @Override
     public String toString() {
-        return super.toString() + 
-                "Standard Room: " + getStandardRoom()  +
-                "Area Pool: " + getAreaPool() +
-                "Number Floor: " + getNumberFloor();
+        return super.toString() +
+                " Standard Room: " + getStandardRoom() +
+                " Area Pool: " + getAreaPool() +
+                " Number Floor: " + getNumberFloor();
+    }
+
+    public String getInfoToCVS() {
+        return getIdFacility() + "," + getServiceName() + "," + getArea() + "," + getPrice() + "," + getMaxNumberOfPeople() + "," + getTypeOfRent() + "," + getStandardRoom() + "," + getAreaPool() + "," + getNumberFloor();
     }
 }

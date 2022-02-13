@@ -6,8 +6,14 @@ public class House extends Facility {
     public House() {
     }
     
-    public House(String idFacility, String serviceName, float area, float price, int maxNumberOfPeople, String typeOfRent,
-            String standardRoom, int numberFloor) {
+    public House(String idFacility,
+            String serviceName,
+            float area,
+            float price,
+            int maxNumberOfPeople,
+            String typeOfRent,
+            String standardRoom,
+            int numberFloor) {
         super(idFacility, serviceName, area, price, maxNumberOfPeople, typeOfRent);
         this.standardRoom = standardRoom;
         this.numberFloor = numberFloor;
@@ -31,9 +37,11 @@ public class House extends Facility {
     @Override
     public String toString() {
         return super.toString() + 
-                "Standard Room: " + getStandardRoom()  +
-                "Number Floor: " + getNumberFloor();
+                " Standard Room: " + getStandardRoom()  +
+                " Number Floor: " + getNumberFloor();
     }
-    
+    public String getInfoToCVS() {
+        return getIdFacility() + "," + getServiceName() + "," + getArea() + "," + getPrice() + "," + getMaxNumberOfPeople() + "," + getTypeOfRent() + "," + getStandardRoom() + "," + getNumberFloor();
+    }
     
 }

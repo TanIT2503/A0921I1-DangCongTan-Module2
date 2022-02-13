@@ -1,9 +1,11 @@
 package services;
 
 public interface IFacilityService {
-    void display();
+    void displayVilla();
 
-    void displayMaintain();
+    void displayHouse();
+
+    void displayRoom();
 
     void addVilla();
 

@@ -64,12 +64,11 @@ public class Facility {
     @Override
     public String toString() {
         return "ID Facility: " + getIdFacility() +
-                "Service Name: " + getServiceName()  
-                + "Area: " + getArea() +
-                "Price: " + getPrice() +
-                "Max Number Of People: " + getMaxNumberOfPeople() +
-                "Type Of Rent: " + getTypeOfRent() +
-                '}';
+                " Service Name: " + getServiceName()  
+                + " Area: " + getArea() +
+                " Price: " + getPrice() +
+                " Max Number Of People: " + getMaxNumberOfPeople() +
+                " Type Of Rent: " + getTypeOfRent();
     }
 
     public String getInfoFacilityToCVS() {
